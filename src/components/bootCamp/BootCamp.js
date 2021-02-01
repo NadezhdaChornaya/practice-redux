@@ -1,10 +1,9 @@
 import React from "react";
 import { bootCampRoutes } from "../../routes/bootcampsRoutes";
-import SecondNav from "../secondNavigation/SecondNav";
-// import BootCampNavigation from "./bootCampNavigation/BootCampNavigation";
+import SecondNav from "../secondNav/SecondNav";
 
 const BootCamp = () => {
-  return <SecondNav routes={bootCampRoutes} />;
+    return <SecondNav routes={bootCampRoutes} />;
 };
 
 export default BootCamp;

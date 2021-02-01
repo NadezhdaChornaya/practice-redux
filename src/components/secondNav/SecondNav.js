@@ -6,14 +6,15 @@ const SecondNav = ({ routes }) => {
     const match = useRouteMatch();
     return (
         <>
-            <ul className='list'>
+            <ul className="list">
                 {routes.map(({ path, name, exact }) => (
-                    <li className='listItem' key={path}>
+                    <li className="listItem" key={path}>
                         <NavLink
                             to={match.url + path}
                             exact={exact}
-                            className='link'
-                            activeClassName='activeLink'>
+                            className="link"
+                            activeClassName="activeLink"
+                        >
                             {name.toUpperCase()}
                         </NavLink>
                     </li>

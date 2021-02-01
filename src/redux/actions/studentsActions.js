@@ -5,12 +5,12 @@ export const addNewStudent = (student) => {
     return {
         type: ADDNEWSTUDENT,
         payload: { ...student, id: uuidv4() },
-    }
-}
+    };
+};
 
 export const getStudents = (students) => {
     return {
         type: GETSTUDENTS,
         payload: students,
-    }
-}
+    };
+};
