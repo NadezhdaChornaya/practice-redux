@@ -13,4 +13,10 @@ export const mainRoutes = [
     exact: false,
     component: lazy(() => import("../pages/BootCampsPage")),
   },
+  {
+    path: "/students",
+    name: "Students",
+    exact: false,
+    component: lazy(() => import("../pages/StudentsPage")),
+  },
 ];
